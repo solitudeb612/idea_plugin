@@ -24,4 +24,11 @@
   <extensions defaultExtensionNs="com.intellij">
 
   </extensions>
+  <actions>
+    <action id="com.yyh.first_plugin_FirstPluginActionID" class="com.yyh.first_plugin.FirstPluginAction" text="测试"
+            description="测试表述">
+      <add-to-group group-id="ToolsMenu" anchor="first"/>
+      <keyboard-shortcut keymap="$default" first-keystroke="ctrl I"/>
+    </action>
+  </actions>
 </idea-plugin>
